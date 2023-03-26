@@ -1,0 +1,11 @@
+* source 2EI4_PROJECT _3
+R_Rs         N11204 N14047  100 TC=0,0 
+C_C1         N14047 N11215  100u  TC=0,0 
+V_V3         N11445 0 5Vdc
+R_R1         N11215 N11445  2k TC=0,0 
+V_V1         N11204 0  AC 0V
++SIN 0V 0.5V 1k 0 0 0
+R_R2         N11305 N11215  3.4k TC=0,0 
+R_RL         N11305 N23560  100 TC=0,0 
+V_V2         N11305 0 -5Vdc
+Q_Q1         N11445 N11215 N23560 Q2N3904
