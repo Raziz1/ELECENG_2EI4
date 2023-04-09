@@ -1,0 +1,18 @@
+* source 2EI4_PROJECT4
+M_M1         Y A N00281 N00281 MbreakN           
+M_M2         Y B N00297 N00297 MbreakP           
+M_M3         N00281 B 0 0 MbreakN           
+M_M4         Y AN N00285 N00285 MbreakN           
+M_M5         N00285 BN 0 0 MbreakN           
+M_M6         N00297 AN 5V 5V MbreakP           
+M_M8         Y BN N00301 N00301 MbreakP           
+M_M7         N00301 A 5V 5V MbreakP           
+V_V1         5V 0 5Vdc
+M_M10         AN A 0 0 MbreakN           
+M_M9         AN A 5V 5V MbreakP           
+M_M12         BN B 0 0 MbreakN           
+M_M11         BN B 5V 5V MbreakP           
+V_V2         A 0 5Vdc
+V_V3         B 0  
++PULSE 0V 5V 0s 0 0s 1s 2s
+C_C1         Y 0  100n  TC=0,0 
